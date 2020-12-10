@@ -143,21 +143,3 @@ body {
 .form__signin-active:checked + label {
     border-bottom: 3px solid #ffab1a;
 }
-
-@media all and (max-width: 500px) {
-    .form__signup {
-        width: 330px;
-        height: 450px;
-        padding: 80px 40px 40px;
-    }
-    .form__signin-title-item {
-        top: 35px;
-        left: 40px;
-        font-size: 20px;
-    }
-    .form__signup-title-item {
-        top: 35px;
-        left: 150px;
-        font-size: 20px;
-    }
-}
