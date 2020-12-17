@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="form__signup">
+
+        <input type="radio" id="signin" name="tab" class="form__signin-active">
+        <label class="form__signin-title-item" for="signin">SIGN IN</label>
+        <form action="#" id="signup-form">
+            <input type="tel" name="phone" form="signup-form" required class="form__signup-item-input" placeholder="Mobile Phone">
+            <input type="email" name="email" form="signup-form" required class="form__signup-item-input" placeholder="Email ID">
+            <input type="password" name="password" form="signup-form" required class="form__signup-item-input" placeholder="Password">
+            <div class="form__signup-item-checkbox">
+                <input type="checkbox" form="signup-form" required>
+                <span>I agree to terms and conditions</span>
+            </div>
+            <button class="form__signup-btn" type="submit">REGISTER</button>
+        </form>
+        <input type="radio" id="signup" name="tab"  class="form__signup-active" checked>
+        <label class="form__signup-title-item" for="signup">SIGN UP</label>
+        <form action="#" id="signin-form">
+            <input type="email" name="email" form="signup-form" required class="form__signup-item-input" placeholder="Email ID">
+            <input type="password" name="password" form="signup-form" required class="form__signup-item-input" placeholder="Password">
+            <div class="form__signup-item-checkbox">
+                <input type="checkbox" form="signup-form" required>
+                <span>Keep me logged in</span>
+            </div>
+            <button class="form__signup-btn" type="submit">LOGIN</button>
+            <p class="form__signup-forgot-pass">Forgot password?</p>
+        </form>
+    </div>
+</body>
+</html>
